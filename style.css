@@ -54,7 +54,6 @@ body > .main > div {
 }
 
 .main {
-    background-color: aliceblue;
     flex: 1;
     display: flex;
     flex-direction: column;

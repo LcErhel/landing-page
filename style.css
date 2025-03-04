@@ -48,6 +48,15 @@ a {
     flex: 1;
 }
 
+footer {
+    flex: 0 1 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
 /* {
     //everything
     font-family: Roboto, sans-serif;

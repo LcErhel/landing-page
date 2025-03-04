@@ -19,7 +19,6 @@
 header {
     display: flex;
     justify-content: space-between;
-    flex: 0 1 64px;
     background-color: #1F2937;
 }
 
@@ -27,6 +26,7 @@ header {
 .header-right {
     display: flex;
     align-items: center;
+    padding: 16px 0;
 }
 
 .header-left {
@@ -45,7 +45,41 @@ a {
 }
 
 .section {
+    display: flex;
     flex: 1;
+    gap: 48px;
+}
+
+.one {
+    background-color: #1F2937;
+    padding: 48px;
+}
+
+.one-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.one-item button {
+    width: fit-content;
+    padding: 8px 16px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.one-item > * {
+    color: #F9FAF8;
+}
+
+.one-item .img {
+    background-color: #b2b2b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
 }
 
 footer {
@@ -56,32 +90,3 @@ footer {
     color: #F9FAF8;
     background-color: #1F2937;
 }
-
-/* {
-    //everything
-    font-family: Roboto, sans-serif;
-    //hero/footer
-    background-color: #1F2937;
-    //hero main text
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
-    //hero secondary text, header link text
-    font-size: 18px;
-    color: #E5E7EB;
-    //header logo text
-    font-size: 24px;
-    color: #F9FAF8;
-    //button color, call to action background color
-    background-color: #3882F6;
-    //information header text
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-    //quote section background color
-    background-color: #E5E7EB;
-    //quote text
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-} */

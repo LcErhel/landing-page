@@ -140,6 +140,31 @@ a {
     font-weight: bold;
 }
 
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.four-action {
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 32px 64px;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.action-button {
+    color: #F9FAF8;
+    padding: 8px 16px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
 footer {
     flex: 0 1 48px;
     display: flex;

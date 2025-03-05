@@ -114,6 +114,31 @@ a {
     align-self: center;
 }
 
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    min-height: 300px;
+}
+
+.three-text {
+    max-width: 1200px;
+    padding: 48px;
+}
+
+.quote-one {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-two {
+    justify-self: end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 footer {
     flex: 0 1 48px;
     display: flex;

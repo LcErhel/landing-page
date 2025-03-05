@@ -14,7 +14,7 @@
 }
 
 .main-wrapper > * {
-    padding: 0 48px;
+    padding: 0 64px;
 }
 
 header {
@@ -54,7 +54,7 @@ a {
 
 .one {
     background-color: #1F2937;
-    padding: 48px;
+    padding: 64px;
 }
 
 .one-item {
@@ -81,7 +81,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 200px;
+    min-height: 250px;
 }
 
 .two {
